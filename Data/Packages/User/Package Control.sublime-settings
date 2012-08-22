@@ -1,7 +1,10 @@
 {
-	"auto_upgrade_last_run": 1344675561,
+	"auto_upgrade_last_run": 1345556724,
 	"installed_packages":
 	[
+		"Package Control",
 		"SublimeClang"
-	]
+	],
+	"repository_channels" :  ["http://sublime.wbond.net/repositories.json"],
+	"http_proxy" : "http://proxy-pd.intel.com:911"
 }
