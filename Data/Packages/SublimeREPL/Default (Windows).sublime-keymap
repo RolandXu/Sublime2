@@ -63,7 +63,18 @@
 		]
 	},
 
-
+	{ "keys": ["ctrl+,", "m"],
+		"command": "repl_open",
+        "args":
+        {
+            "type": "subprocess",
+            "encoding": "utf8",
+            "cmd": ["python", "-u", "$file_basename"],
+            "cwd": "$file_path",
+            "syntax": "Packages/Python/Python.tmLanguage",
+            "external_id": "python"
+        }
+	},
 	{ "keys": ["ctrl+,", "s"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
 	{ "keys": ["ctrl+shift+,", "s"], "command": "repl_transfer_current", "args": {"scope": "selection", "action":"view_write"}},
 	{ "keys": ["ctrl+,", "f"], "command": "repl_transfer_current", "args": {"scope": "file"}},
