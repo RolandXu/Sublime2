@@ -18,20 +18,32 @@
 			"buffers":
 			[
 				{
-					"file": "/C/EverBox/gitCode/LearnPythonHardWay/ex11.py",
+					"file": "/C/EverBox/Sublime2/Data/Packages/User/Package Control.sublime-settings",
 					"settings":
 					{
-						"buffer_size": 39,
-						"line_ending": "Windows"
+						"buffer_size": 227,
+						"line_ending": "Unix"
 					}
 				}
 			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 58.0,
+				"height": 127.0,
 				"selected_items":
 				[
+					[
+						"upg",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"package",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
 					[
 						"insta",
 						"Package Control: Install Package"
@@ -58,6 +70,7 @@
 			},
 			"file_history":
 			[
+				"/C/EverBox/gitCode/LearnPythonHardWay/ex11.py",
 				"/C/EverBox/Sublime2/Data/Packages/SublimeClang/Default.sublime-keymap",
 				"/C/EverBox/vs/aa.cpp",
 				"/C/EverBox/Sublime2/Data/Packages/SublimeClang/SublimeClang.sublime-settings",
@@ -103,18 +116,18 @@
 					[
 						{
 							"buffer": 0,
-							"file": "/C/EverBox/gitCode/LearnPythonHardWay/ex11.py",
+							"file": "/C/EverBox/Sublime2/Data/Packages/User/Package Control.sublime-settings",
 							"settings":
 							{
-								"buffer_size": 39,
+								"buffer_size": 227,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										39,
-										39
+										221,
+										221
 									]
 								],
 								"settings":
@@ -207,7 +220,8 @@
 										"Ruby on Rails": "ruby"
 									},
 									"sublimelinter_wrap_find": true,
-									"syntax": "Packages/Python/Python.tmLanguage"
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"translate_tabs_to_spaces": false
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
