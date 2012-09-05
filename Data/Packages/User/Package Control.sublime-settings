@@ -1,6 +1,6 @@
 {
-	"auto_upgrade_last_run": 1345706441,
-	"http_proxy": "http://proxy-pd.intel.com:911",
+	"auto_upgrade_last_run": 1346851738,
+	"http_proxy": "http://127.0.0.1:8087",
 	"installed_packages":
 	[
 		"Package Control",
