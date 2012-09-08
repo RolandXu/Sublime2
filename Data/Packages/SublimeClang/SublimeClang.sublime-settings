@@ -116,7 +116,7 @@
     "marker_error_scope": "invalid",
 
     // Whether or not to print out timing information for the complete operation
-    "time_completions": false,
+    "time_completions": true,
 
     // Whether or not to inhibit the Sublime Text 2 built in word completions
     "inhibit_sublime_completions": true,
@@ -251,16 +251,16 @@
     // Set "debug_options" (defined below) to true to print the final options used for compilation to the python console
     "options":
     [
-        "-Wall",
-        "-I/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/",
-        "-I/usr/lib/gcc/i686-apple-darwin11/4.2.1/include/",
+        "-Wall"
+        //"-I/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/",
+        //"-I/usr/lib/gcc/i686-apple-darwin11/4.2.1/include/",
         // If you code for iOS, you want to have something like the following here:
         //"-isysroot",
         //"/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk",
         //"-D__IPHONE_OS_VERSION_MIN_REQUIRED=40300",
-        "-IC:/MinGW/include",
-        "-I/path/to/sources/1",
-        "-I/path/to/sources/2"
+        //"-IC:/MinGW/include",
+        //"-I/path/to/sources/1",
+        //"-I/path/to/sources/2"
     ],
 
     // A command that can be run to fetch actual options for a source file in a build system.
@@ -282,7 +282,7 @@
     "dont_prepend_clang_includes": false,
 
     // When set to true will output the final options used to the python console
-    "debug_options": false,
+    "debug_options": true,
 
     // Scope used for markers in the clang output panel
     "marker_analyzer_output_panel_scope": "invalid",
